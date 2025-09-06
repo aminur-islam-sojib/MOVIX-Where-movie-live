@@ -12,8 +12,6 @@ const MovieSlice = createSlice({
       state.loading = action.payload;
     },
     setRanData: (state, action) => {
-      const data = action.payload;
-      console.log(data);
       state.randomData = action.payload;
     },
   },
